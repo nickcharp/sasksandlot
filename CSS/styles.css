@@ -1,0 +1,208 @@
+/* GLOBAL STYLE */
+body {
+	background-color: #ffffff;
+	/*background-color: #0a570c; (Dark Green background)*/
+	color: #000000;
+	/*color: #b8baba;*/
+	/*padding-top: 90px;*/
+	padding-bottom: 30px;
+	/*OR margin-bottom: 30px;*/
+}
+
+/*
+canvas { 
+	width: 100%; height: 100% 
+}
+*/
+
+h1 {
+	color: black;
+	text-align: center;
+	padding-top: 25px;
+}
+
+h2 {
+	color: black;
+	text-align: center;
+}
+
+h3 {
+	color: black;
+	text-align: center;
+}
+
+a.active {
+	color: #00ccff;
+}
+
+.header-bkgrnd {
+	/*background-image: url("../images/IMG_3883i.jpg");*/
+	width: 100%;
+	height: auto;
+	/*background-size: cover;*/
+}
+
+/*NAVIGATION STYLING*/
+.navbar-brand {
+	/*margin-left: 5%;*/
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.navbar-nav {
+	/*margin-right: 3%;*/
+}
+
+.navbar-nav > li{
+	padding-left:2px;
+	padding-right:2px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.withwithout {
+	font-weight: bold;
+	/*font-style: italic;*/
+}
+
+/*Unable to Overwrite bootstrap color*/
+.toggle-button-color {
+	color: #00ccff;
+}
+
+.bookapt {
+	/*width: 80%;*/
+}
+
+.textcontain {
+	/*padding-top: 30px;*/
+	margin: 40px;
+	text-indent: 5%;
+}
+
+.windytext {
+	margin: 40px;
+}
+
+/*********************************************************************************/
+/*ChatGPT generated text layout*/
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+*/
+
+.pagetext {
+    text-indent: 1.5em;
+    line-height: 1.6;
+    color: #555;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #555;
+}
+
+ul ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+}
+
+
+/*********************************************************************************/
+
+#accordion {
+	margin-bottom: 30px;
+}
+
+.card {
+	max-width: 60%;
+	text-align: center;
+}
+
+.thirdcard {
+	margin-bottom: 100px;
+}
+
+.modalbtn {
+	padding-bottom: 15px;
+}
+
+.btn-block {
+	border-radius: 0 !important;
+}
+
+#dark {
+
+}
+
+.darkmode{
+  background-color: #000000;
+  color: white;
+  transition: background-color 1s;
+}
+
+.w3-animate-fading{
+	animation:fading 3s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}
+}
+
+
+.saskmap {
+	width: 100%;
+}
+
+/*Map needs some adjustments*/
+.map-responsive{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+}
+.map-responsive iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+.galthumbs {
+	margin: 40px;
+}
+
+form {
+	margin: 40px;
+}
+
+
+footer {
+	background-color: #ff0003;
+	/*background-color: #4ddbff;*/
+	color: #ffffff;
+	;
+	margin-top: 50px;
+	position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 25px;
+    width: 100%;
+	z-index: 999;
+	display: inline-block;
+}
